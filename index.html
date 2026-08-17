@@ -11,7 +11,7 @@
   <nav>
     <section>
       <nav>
-        <img src="./assets/FES.svg" alt="FES Logo" />
+        <img src="./assets/FES.svg" class="logo"alt="FES Logo">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -19,47 +19,52 @@
         </ul>
       </nav>
       <header>
-        <div>
+        <div class="row">
           <h1>Best place to learn frontend </h1>
-          <p>Go from being a beginner to a pro with a simplified process</p>
+          <p class="subheader">Go from being a beginner to a pro with a simplified process</p>
           <button>Start now</button>
+          <figure>
+            <img src="./assets/laptop.png" alt="Home page image">
+          </figure>
         </div>
-        <figure>
-          <img src="./assets/laptop.png" alt="Home page image">
-        </figure>
       </header>
     </section>
 
-    <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis vitae laborum et numquam corrupti, temporibus dolor quae aut earum ab dolores rem tenetur neque alias eius adipisci! Quasi, molestias ut?
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quibusdam quos minima numquam facilis magni? Illum harum fugiat at quaerat voluptatem quo deserunt pariatur omnis, possimus optio cumque, aliquid ipsa.
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quibusdam quos minima numquam facilis magni? Illum harum fugiat at quaerat voluptatem quo deserunt pariatur omnis, possimus optio cumque, aliquid ipsa.
           </p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
           <img src="./assets/about.jpg" alt="About us image">
         </figure>
-      </section>
-      <section id="discord">
+      </div>
+    </section>
+
+    <section id="discord">
         <h2>Discord Community</h2>
-        <div>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quibusdam quos minima numquam facilis magni? Illum harum fugiat at quaerat voluptatem quo deserunt pariatur omnis, possimus optio cumque, aliquid ipsa.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quibusdam quos minima numquam facilis magni? Illum harum fugiat at quaerat voluptatem quo deserunt pariatur omnis, possimus optio cumque, aliquid ipsa.
-          </p>
+        <div class="section__description">
+          <div class="section__description">
+            <p class="section__description--para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quibusdam quos minima numquam facilis magni? Illum harum fugiat at quaerat voluptatem quo deserunt pariatur omnis, possimus optio cumque, aliquid ipsa.
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quibusdam quos minima numquam facilis magni? Illum harum fugiat at quaerat voluptatem quo deserunt pariatur omnis, possimus optio cumque, aliquid ipsa.
+            </p>
         </div>
         <figure>
           <img src="./assets/discord.png" alt="Discord image">
         </figure>
-      </section>
-      <section id="contact">
+    </section>
+
+    <section id="contact">
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
@@ -68,16 +73,16 @@
           <textarea type="text" placeholder="type here"></textarea>
           <button>Submit Now</button>
         </form>
-      </section>
-    </main>
+    </section>
+  </main>
 
-    <footer>
+  <footer>
+    <div>
       <img src="./assets/FES.svg" alt="FES Logo" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-      </div>
+      <a href="#about">About</a>
+      <a href="#discord">Discord</a>
+      <a href="#contact">Contact</a>
+    </div>
       <p>&copy; 2023 FES. All rights reserved.</p>
     </footer>
 </body>

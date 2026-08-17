@@ -20,45 +20,55 @@
       </ul>
     </nav>
     <header>
-      <div>
-        <h1>Best place to learn front</h1>
-        <p>Go from being an absolute beginner to pro with a simplified process</p>
-        <button>Start now</button>
+      <div class="row"> 
+        <div class="home__description">
+          <h1>Best place to learn frontend</h1>
+          <p class="subheader">Go from being an absolute beginner to pro with a simplified process</p>
+          <button class="home__description--button">Start now</button>
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Laptop">
+        </figure>
       </div>
-      <figure>
-        <img src="./assets/laptop.png" alt="Laptop">
-      </figure>
     </header>
   </section>
 
   <main>
     <section id="about">
       <h2>About</h2>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsam quam corporis, fuga nulla officia aliquid laudantium iste, reiciendis, saepe voluptatum nesciunt quod aperiam vel maxime? Ratione consequuntur facere nisi?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsam quam corporis, fuga nulla officia aliquid laudantium iste, reiciendis, saepe voluptatum nesciunt quod aperiam vel maxime? Ratione consequuntur facere nisi?
-        </p>
+      <div class="row">
+        <div class="section__description"> 
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsam quam corporis, fuga nulla officia aliquid laudantium iste, reiciendis, saepe voluptatum nesciunt quod aperiam vel maxime? Ratione consequuntur facere nisi?
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsam quam corporis, fuga nulla officia aliquid laudantium iste, reiciendis, saepe voluptatum nesciunt quod aperiam vel maxime? Ratione consequuntur facere nisi?
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./assets/about.jpg" alt="About">
+          </figure>
+        </div>
       </div>
-      <figure>
-        <img src="./assets/about.jpg" alt="About">
-      </figure>
     </section>
 
     <section id="discord">
       <h2>Discord</h2>
-      <figure>
-        <img src="./assets/discord.png" alt="Discord">
-      </figure>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam consequatur eius deserunt ipsam amet iste aperiam porro ea! Odit, nihil consequatur voluptatem saepe odio obcaecati accusamus dolores maxime culpa.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam consequatur eius deserunt ipsam amet iste aperiam porro ea! Odit, nihil consequatur voluptatem saepe odio obcaecati accusamus dolores maxime culpa.
-        </p>
+      <div class="row">
+        <div class="section__description">
+          <figure class="about__img--wrapper">
+            <img src="./assets/discord.png" alt="Discord">
+          </figure>
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam consequatur eius deserunt ipsam amet iste aperiam porro ea! Odit, nihil consequatur voluptatem saepe odio obcaecati accusamus dolores maxime culpa.
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quisquam consequatur eius deserunt ipsam amet iste aperiam porro ea! Odit, nihil consequatur voluptatem saepe odio obcaecati accusamus dolores maxime culpa.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -66,19 +76,21 @@
       <h2>Contact</h2>
       <form action="contact">
         <span>Email</span>
-        <input type="email" placeholder="Your@email">
+        <input type="email" placeholder="Your@email.com">
         <span>Message</span>
         <textarea placeholder="Your message"></textarea>
-        <button>Send</button>
+        <button>Contact Us!</button>
       </form>
     </section>
   </main>
 
   <footer>
-    <div>
-      <a href="#about">About</a>
-      <a href="#discord">Discord</a>
-      <a href="#contact">Contact</a>
+    <img class="footer__logo" src="./assets/FES.svg" alt="FES logo">
+    <div class="footer__links">
+      <a class="footer__link" href="#about">About</a>
+      <a class="footer__link" href="#discord">Discord</a>
+      <a class="footer__link" href="#contact">Contact</a>
+      <a class="footer__link" href="#courses">Courses</a>
     </div>
     <p>&copy; 2026 Frontend Simplified. All rights reserved.</p>
   </footer>
